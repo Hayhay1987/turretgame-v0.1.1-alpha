@@ -43,7 +43,7 @@ function draw() {
             turret.rotateTowards(mouse, 0.1, 0)
             c.diameter=12
             c.bearing = turret.rotation
-            c.applyForce(Math.random()*force)
+            c.applyForce(Math.random()*force/2+force/2)
         }
     }
     background(220)
@@ -53,4 +53,8 @@ function draw() {
         green -= 1
     }
     text(`$${money}`, 10, 40)
+    fill(80, 80, 80)
+    textSize(15)
+    text(`v0.1.1-alpha`, 10, 720)
+    
 }
