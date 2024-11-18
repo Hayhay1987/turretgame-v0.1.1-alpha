@@ -1,4 +1,3 @@
-# turretgame-v0.1.0-alpha
+# turretgame-v0.1.1-alpha
 
-new upadte 
-- every enemy now has 4 health and you need to hit them 4 times before they die
+version numbers at the bottom of scren
